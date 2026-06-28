@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Student Service Request Portal">
     <title>Student Service Request Portal</title>
- 
+
     <link rel="stylesheet" href="style.css">
 </head>
- 
+
 <body>
- 
+
     <header>
         <h1>Student Service Request Portal</h1>
         <p>Submit your academic and administrative service requests online.</p>
     </header>
- 
+
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -24,9 +24,9 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
- 
+
     <main>
- 
+
         <section class="service-description">
             <h2>Available Services</h2>
             <p>
@@ -35,21 +35,21 @@
                 Student Affairs Department.
             </p>
         </section>
- 
+
         <section class="form-section">
             <h2>Service Request Form</h2>
- 
+
             <form action="#">
- 
+
                 <label for="name">Student Name:</label>
                 <input type="text" id="name" name="name" required>
- 
+
                 <label for="studentid">Student ID:</label>
                 <input type="text" id="studentid" name="studentid" maxlength="10" required>
- 
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
- 
+
                 <label for="service">Service Type:</label>
                 <select id="service" name="service">
                     <option value="">Select a Service</option>
@@ -57,34 +57,34 @@
                     <option>ID Card Issue</option>
                     <option>General Inquiry</option>
                 </select>
- 
+
                 <label>Urgency Level:</label>
- 
+
                 <div class="radio-group">
                     <input type="radio" id="low" name="urgency" value="Low" required>
                     <label for="low">Low</label>
- 
+
                     <input type="radio" id="medium" name="urgency" value="Medium">
                     <label for="medium">Medium</label>
- 
+
                     <input type="radio" id="high" name="urgency" value="High">
                     <label for="high">High</label>
                 </div>
- 
+
                 <label for="details">Additional Details:</label>
                 <textarea id="details" name="details" rows="5"></textarea>
- 
+
                 <button type="submit">Submit Request</button>
- 
+
             </form>
         </section>
- 
+
     </main>
- 
+
     <footer>
         <p>&copy; 2026 Student Affairs Department. All Rights Reserved.</p>
     </footer>
- 
+
 </body>
- 
+
 </html>
